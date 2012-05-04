@@ -8,7 +8,7 @@ Homepage: http://sipwise.com/
 
 Package: carton
 Architecture: all
-Depends: ${misc:Depends}, libcpan-meta-perl, libmodule-cpanfile-perl, cpanminus
+Depends: ${misc:Depends}, cpanminus, libcpan-meta-perl, libexception-class-perl, libmodule-cpanfile-perl
 Description: Perl module dependency manager (aka Bundler for Perl)
  carton is a command line tool to track the Perl module
  dependencies for your Perl application. The managed dependencies
