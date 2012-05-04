@@ -1,0 +1,18 @@
+Source: carton
+Section: admin
+Priority: extra
+Maintainer: Sipwise Development Team <support@sipwise.com>
+Build-Depends: debhelper (>= 8), libmodule-install-perl, quilt
+Standards-Version: 3.9.3
+Homepage: http://sipwise.com/
+
+Package: carton
+Architecture: all
+Depends: ${misc:Depends}, libcpan-meta-perl, libmodule-cpanfile-perl, cpanminus
+Description: Perl module dependency manager (aka Bundler for Perl)
+ carton is a command line tool to track the Perl module
+ dependencies for your Perl application. The managed dependencies
+ are tracked in a *carton.lock* file, which is meant to be
+ version controlled, and the lock file allows other developers of
+ your application will have the exact same versions of the
+ modules.
