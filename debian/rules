@@ -6,3 +6,9 @@
 override_dh_auto_configure:
 	# avoid diff against upstream sources
 	rm -f inc/Module/Install.pm
+	# build manpage
+	pod2man ./lib/Carton.pod > debian/carton.1
+
+override_dh_clean:
+	rm -f debian/carton.1
+	dh_clean
