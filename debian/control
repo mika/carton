@@ -13,6 +13,6 @@ Description: Perl module dependency manager (aka Bundler for Perl)
  carton is a command line tool to track the Perl module
  dependencies for your Perl application. The required
  dependencies are managed through a file named cpanfile and
- tracked through the carton.lock file. It allows other developers
- of your application to have the exact same versions of the
- modules and make deployments easier.
+ tracked through the carton.lock file. It makes deployments
+ easier and allows other developers of your application to have
+ the exact same versions of the modules.
